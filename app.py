@@ -37,4 +37,5 @@ def investmentSimulator():
     plt.show()
 
 
-investmentSimulator()
+if __name__ == "__main__":
+    investmentSimulator()
