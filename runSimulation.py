@@ -32,6 +32,5 @@ def runSimulation(initialInvestment=10000, ticker="AAPL"):
 
     percent_change = (price_series[-1] -
                       currentStockPrice) / currentStockPrice * 100
-    plt.plot(price_series)
-    plt.ylabel("Investment Value")
-    plt.show()
+
+    return price_series
